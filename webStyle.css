@@ -1,0 +1,99 @@
+
+body {
+	background-color: darkgray;
+	font-family: Verdana;
+	margin: 0;
+}
+
+header {
+    background-color: darkorange;
+}
+
+nav a {
+	display: block;
+	padding: 8px;
+	color: white;
+	background-color: teal;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+nav a:hover {
+	background-color: darkblue;
+}
+
+nav ul {
+	margin: 0;
+    padding: 0;
+    list-style: none;
+	text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+h1{
+	color: white;
+	background-color: darkorange;
+	width: 70%;
+	padding-left: 2%;
+	padding-right: 2%;
+	padding-bottom: 0.5%;
+	margin: auto;
+}
+
+.content{
+    width: 70%;
+	padding-left: 2%;
+	padding-right: 2%;
+	margin: auto;
+	background-color: lightgray;
+	border-top: 10px solid lightgray;
+	border-bottom: 10px solid lightgray;
+}
+
+aside {
+	padding-left: 5px;
+	padding-right: 5px;
+	border: 5px dashed teal;
+	border-left: 10px solid darkorange;
+	font-style: italic;
+}
+
+.module{
+	width: 13%;
+    height: 100%;
+    display: flex;
+    position: fixed;
+    float: left;
+	background-color: darkgray;
+}
+
+.module a {
+    color:black;
+    text-decoration: none;
+	font-size: 12px;
+}
+
+.module a:hover{
+    background-color: lightgray;
+}
+
+.module ul li ul li {
+    color: black;
+    text-decoration: none;
+    font-size: 8px;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h5 {
+	text-align: center;
+}
